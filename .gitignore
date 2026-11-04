@@ -1,0 +1,23 @@
+# environment variables — never commit these
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+
+# node
+node_modules/
+.next/
+dist/
+
+# misc
+.DS_Store
+*.log
+
+/openbeautyfacts-products.jsonl
